@@ -1,2002 +1,602 @@
 [
   {
-    "question": "Qu'est-ce qu'un service selon la définition ISO/ITIL citée dans la doc ?",
+    "question": "Quelle activité parmi les suivantes relève du Centre de services (Service Desk)?",
     "choix": [
-      "Un produit matériel vendu au client",
-      "Une prestation immatérielle perceptible qui crée de la valeur pour le consommateur et le fournisseur",
-      "Un contrat juridique uniquement",
-      "Un ensemble de serveurs informatiques"
+      "Servir de premier point de contact avec le client",
+      "Rechercher la cause d'interruptions pour le client",
+      "Tracer la cause d'incidents",
+      "Gérer les configurations matérielles"
+    ],
+    "reponse": 1
+  },
+  {
+    "question": "Quel est le rôle d'ITIL dans le cadre de la Gestion des services des TI?",
+    "choix": [
+      "Fournir une approche qui repose sur les meilleurs exemples provenant de la pratique",
+      "Servir de norme internationale en gestion des services des TI",
+      "Servir de modèle standard de fourniture de services des TI",
+      "Servir de cadre théorique pour la conception de processus"
+    ],
+    "reponse": 1
+  },
+  {
+    "question": "Les gestionnaires de réseau ont une lourde charge de travail car les utilisateurs communiquent directement avec eux. Quel processus ITIL pourrait améliorer cette situation?",
+    "choix": [
+      "Gestion des changements (Change Management)",
+      "Gestion des configurations (Configuration Management)",
+      "Gestion des incidents (Incident Management)",
+      "Gestion des problèmes (Problem Management)"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "Quelle tâche parmi les suivantes relève de la gestion des problèmes (Problem Management)?",
+    "choix": [
+      "Coordonner toutes les modifications à l'infrastructure des TI",
+      "Consigner les incidents en vue de les étudier plus tard",
+      "Approuver toutes les modifications apportées à la base de données des erreurs connues",
+      "Identifier les besoins des utilisateurs et modifier l'infrastructure des TI selon ces besoins"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "Quel processus accorde l'autorisation de modifier les données de la CMDB?",
+    "choix": [
+      "Gestion des changements (Change Management)",
+      "Gestion des configurations (Configuration Management)",
+      "Gestion des incidents (Incident Management)",
+      "Gestion des niveaux de service (Service Level Management)"
+    ],
+    "reponse": 1
+  },
+  {
+    "question": "Quel concept fait partie de la gestion des changements (Change Management)?",
+    "choix": [
+      "Revue postimplantation (Post Implementation Review)",
+      "Mise à jour d'urgence (Emergency Release)",
+      "Demande de service (Service Request)",
+      "Solution temporaire (Work-around)"
+    ],
+    "reponse": 1
+  },
+  {
+    "question": "Un PC est remplacé et l'ancien devient serveur d'impression. Quel processus enregistre cette modification dans la CMDB?",
+    "choix": [
+      "Gestion des changements (Change Management)",
+      "Gestion des configurations (Configuration Management)",
+      "Gestion des problèmes (Problem Management)",
+      "Gestion des mises à jour (Release Management)"
     ],
     "reponse": 2
   },
   {
-    "question": "Parmi les éléments suivants, lequel n'est PAS une caractéristique essentielle d'un service (doc) ?",
+    "question": "Un courtier en immobilier veut des assurances sur la fourniture de services TI après une interruption. Quel processus implanter?",
     "choix": [
-      "Contexte d'exécution",
-      "Coût de production",
-      "Profil de consommation",
-      "Adresse IP fixe"
+      "Gestion de la disponibilité (Availability Management)",
+      "Gestion de la continuité des services des TI (IT Service Continuity Management)",
+      "Gestion des niveaux de service (Service Level Management)",
+      "Gestion des services (Service Management)"
+    ],
+    "reponse": 2
+  },
+  {
+    "question": "Les données financières doivent être accessibles aux utilisateurs autorisés seulement. Quel aspect est assuré par la Gestion de la sécurité?",
+    "choix": [
+      "Disponibilité",
+      "Intégrité",
+      "Stabilité",
+      "Confidentialité"
     ],
     "reponse": 4
   },
   {
-    "question": "La Qualité de Service (QoS) se caractérise principalement par :",
+    "question": "L'espace disque sera bientôt complètement utilisé. À quel processus ITIL signaler cette situation?",
     "choix": [
-      "Disponibilité, performance, fiabilité, capacité",
-      "Marketing, ventes, support, RH",
-      "Couleur, forme, poids, taille",
-      "Langage de programmation"
+      "Gestion de la disponibilité (Availability Management)",
+      "Gestion des capacités (Capacity Management)",
+      "Gestion des changements (Change Management)",
+      "Gestion des incidents (Incident Management)"
     ],
-    "reponse": 1
+    "reponse": 2
   },
   {
-    "question": "Que signifie « disponibilité » pour un service ?",
+    "question": "Quelle activité relève de la gestion des mises à jour (Release Management)?",
     "choix": [
-      "Pourcentage de temps pendant lequel le système fonctionne",
-      "Nombre de serveurs en production",
-      "Temps moyen de réponse d'un ticket",
-      "Capacité de stockage totale"
+      "Vérifier qu'il n'y a pas de logiciels illégaux sur les ordinateurs",
+      "Stocker les versions originales de tous les logiciels autorisés",
+      "Consigner l'endroit où chaque version de logiciel est disponible",
+      "Installer les logiciels sur les postes utilisateurs"
     ],
-    "reponse": 1
+    "reponse": 2
   },
   {
-    "question": "Que mesure la « fiabilité » d'un service ?",
+    "question": "Pourquoi la gestion des niveaux de service utilise-t-elle les données de consignation des incidents du Service Desk?",
     "choix": [
-      "Le pourcentage du temps où le système fonctionne sans erreur",
-      "Le nombre d'utilisateurs simultanés",
-      "La taille de la base de données",
-      "La rapidité du disque dur"
+      "Rédiger des ententes sur les niveaux de service (SLA)",
+      "Établir un rapport sur le nombre et la nature des incidents",
+      "Déterminer la disponibilité d'un service TI",
+      "Analyser si le niveau de service convenu est fourni"
     ],
-    "reponse": 1
+    "reponse": 4
   },
   {
-    "question": "Quelle est la définition de « capacité » dans le contexte QoS ?",
+    "question": "Le Service Desk a reçu 2 317 appels ce mois-ci. Qu'est-ce que ces appels comprendraient?",
     "choix": [
-      "Faculté d'un composant à répondre à une demande de taille donnée pour un état donné",
-      "Haut-parleur de l'ordinateur",
-      "Capacité du service desk à répondre aux emails",
-      "Épaisseur des câbles réseau"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "99% de disponibilité par mois correspond approximativement à combien de minutes d'indisponibilité (30 jours) ?",
-    "choix": [
-      "~7h12min",
-      "~43min",
-      "~4min",
-      "~72h"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "99,9% de disponibilité par mois correspond approximativement à :",
-    "choix": [
-      "~7h12min",
-      "~43min",
-      "~00:43:12 (≈43 min)",
-      "~00:04:19"
+      "Modifications aux ententes sur les niveaux de service (SLA)",
+      "Avis concernant des éléments de configuration (CI) modifiés",
+      "Demandes d'assistance à l'organisation des TI pour les utilisateurs",
+      "Rapport d'audit de sécurité"
     ],
     "reponse": 3
   },
   {
-    "question": "Dans le modèle CIM présenté, quelles sont les 3 couches principales ?",
+    "question": "Après fusion de deux entreprises, quel processus détermine la mémoire et l'espace disque requis pour l'infrastructure TI combinée?",
     "choix": [
-      "Stratégie, Intranet, Vente",
-      "Stratégie, Management/Organisation, Opérations",
-      "Infrastructure, Marketing, Finance",
-      "Opérations, Ventes, RH"
+      "Gestion des applications (Application Management)",
+      "Gestion des capacités (Capacity Management)",
+      "Gestion de l'exploitation des ordinateurs",
+      "Gestion des mises à jour (Release Management)"
     ],
     "reponse": 2
   },
   {
-    "question": "SIPOC est un outil de représentation d'un processus. Que signifie « S » ?",
+    "question": "Quel concept ne fait PAS partie de la gestion financière des services des TI?",
     "choix": [
-      "Services",
-      "Suppliers (Fournisseurs) / Suppliers selon le contexte SIPOC",
-      "Security",
-      "Software"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Dans SIPOC, que représente « O » ?",
-    "choix": [
-      "Ordre",
-      "Outputs (Sorties)",
-      "Opérations internes",
-      "Options"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Quel est l'objectif principal d'un processus ?",
-    "choix": [
-      "Générer un produit de sortie destiné à satisfaire les clients ou atteindre un objectif",
-      "Augmenter le trafic réseau",
-      "Installer serveurs physiques uniquement",
-      "Supprimer la documentation"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Quelle est la durée typique liée à la couche « Strategy » dans le modèle CIM (ordre de grandeur) ?",
-    "choix": [
-      "1 seconde < T < 1 jour",
-      "1 semaine < T < 1 month",
-      "1 an < T < 3 ans",
-      "1 minute < T < 1 heure"
+      "Budgétisation",
+      "Imputation",
+      "Approvisionnement",
+      "Tarification"
     ],
     "reponse": 3
   },
   {
-    "question": "Quel profil d'usage correspond au graphique en « chameau » cité dans la doc ?",
+    "question": "Que représentent les exigences de niveaux de service (Service Level Requirements)?",
     "choix": [
-      "Usage constant 24/7",
-      "Pic matin et après-midi, creux nocturne (caméléon)",
-      "Forts pics localisés (camel = chameau = pics matin/après-midi)",
-      "Usage uniquement le week-end"
+      "Les attentes et les besoins du client à l'égard du service",
+      "Les attentes de l'organisation des TI à l'égard du client",
+      "Les conditions requises pour l'entente sur les niveaux de service (SLA)",
+      "Un paragraphe du SLA décrivant des spécifications supplémentaires"
+    ],
+    "reponse": 1
+  },
+  {
+    "question": "Quelle tâche est une responsabilité de la gestion de la disponibilité (Availability Management)?",
+    "choix": [
+      "Conclure un contrat avec des fournisseurs",
+      "Surveiller la disponibilité d'un système d'imputation des coûts",
+      "Vérifier la fiabilité et le niveau de service des CI achetés auprès de tiers",
+      "Planifier et gérer la fiabilité et la disponibilité d'un service des TI"
+    ],
+    "reponse": 4
+  },
+  {
+    "question": "Un utilisateur se plaint d'une erreur récurrente causant la déconnexion du réseau. Quel processus ITIL trace la cause?",
+    "choix": [
+      "Gestion de la disponibilité (Availability Management)",
+      "Gestion des incidents (Incident Management)",
+      "Gestion des problèmes (Problem Management)",
+      "Gestion des mises à jour (Release Management)"
     ],
     "reponse": 3
   },
   {
-    "question": "Le « mur de Berlin » et la « baleine » sont :",
+    "question": "L'équipe fait appel au directeur chargé de la gestion des incidents car elle ne peut résoudre un incident grave dans le délai convenu. Quelle forme d'escalade?",
     "choix": [
-      "Des types de profils d'usage horaires",
-      "Des modèles de gouvernance IT",
-      "Des langages de programmation",
-      "Des frameworks cloud"
+      "Escalade officielle",
+      "Escalade fonctionnelle",
+      "Escalade hiérarchique",
+      "Escalade opérationnelle"
     ],
-    "reponse": 1
+    "reponse": 3
   },
   {
-    "question": "Dans l'approche Service, que contient typiquement le Repository ?",
+    "question": "Quel élément décrit le mieux un problème?",
     "choix": [
-      "Catalogue, SLA, Cartographie, Glossaire",
-      "Seulement les logs serveurs",
-      "Le registre RH uniquement",
-      "La liste des logiciels piratés"
+      "Une ou plusieurs erreurs connues (Known Errors)",
+      "Une cause connue d'une ou de plusieurs interruptions",
+      "La cause inconnue d'un ou de plusieurs incidents",
+      "Une erreur connue avec un ou plusieurs incidents"
     ],
-    "reponse": 1
+    "reponse": 3
   },
   {
-    "question": "Quelle est la règle « évitez le syndrome pastèque » dans le reporting ?",
+    "question": "Quel concept fait partie de la gestion de la continuité des services des TI (IT Service Continuity Management)?",
     "choix": [
-      "Avoir 80% d'indicateurs verts mais cacher des problèmes (éviter « pastèque »)",
-      "Mettre tous les indicateurs en rouge pour attirer l'attention",
-      "Avoir uniquement des indicateurs bleus",
-      "Ne pas mesurer du tout"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Combien d'indicateurs recommande la doc pour faciliter la décision ?",
-    "choix": [
-      "3",
-      "10",
-      "50",
-      "100"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Quel est le rôle principal d'un Service Catalogue ?",
-    "choix": [
-      "Lister tous les services IT avec informations résumées (SLA, clients)",
-      "Stocker les sauvegardes",
-      "Gérer uniquement les incidents",
-      "Remplacer le CRM"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Le Service Portfolio inclut :",
-    "choix": [
-      "Uniquement les services en production",
-      "Les services live, en développement et proposés",
-      "Les catalogues marketing uniquement",
-      "Les factures clients"
+      "Évaluation des applications (Application Sizing)",
+      "Vulnérabilité",
+      "Maintenabilité interne (Maintainability)",
+      "Résilience"
     ],
     "reponse": 2
   },
   {
-    "question": "SLA signifie :",
+    "question": "Comment la Gestion des services des TI contribue-t-elle à la qualité de fourniture des services?",
     "choix": [
-      "Service Level Agreement (Accord de niveau de service)",
-      "Service Log Archive",
-      "Software License Agreement",
-      "System Level Access"
+      "En consignant dans des documents officiels les ententes entre clients et fournisseurs",
+      "En définissant pour les niveaux de service des normes généralement acceptées",
+      "En faisant la promotion d'une orientation client auprès du personnel TI",
+      "En planifiant, implantant et gérant un ensemble cohérent de processus"
     ],
-    "reponse": 1
+    "reponse": 4
   },
   {
-    "question": "OLA/UC sont des documents internes liés à :",
+    "question": "La gestion des performances et la gestion des ressources font partie de quel processus?",
     "choix": [
-      "Offres commerciales",
-      "Operational Level Agreement / Underpinning Contracts (accords opérationnels et contrats de support)",
-      "Politiques RH",
-      "Licences open-source"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Dans ITIL V3, combien de processus environ sont listés (doc) ?",
-    "choix": [
-      "5",
-      "27",
-      "100",
-      "2"
+      "Gestion de la disponibilité (Availability Management)",
+      "Gestion des capacités (Capacity Management)",
+      "Gestion de la continuité des services des TI (IT Service Continuity Management)",
+      "Gestion des niveaux de service (Service Level Management)"
     ],
     "reponse": 2
   },
   {
-    "question": "ITIL 4 met l'accent sur :",
+    "question": "Avec Centre de services, deux équipes de résolution et un groupe de spécialistes, comment classer ces groupes d'assistance par niveaux?",
     "choix": [
-      "La création de valeur et la co-création",
-      "L'arrêt des services",
-      "Uniquement la sécurité réseau",
-      "La suppression des processus"
+      "Niveau 0: Centre de services, Niveau 1: équipes de résolution, Niveau 2: Spécialistes",
+      "Niveau 1: Centre de services, Niveau 2: PC, Niveau 3: réseau, Niveau 4: Spécialistes",
+      "Niveau 1: Centre de services, Niveau 2: équipes de résolution, Niveau 3: Spécialistes",
+      "Niveau 0: Spécialistes, Niveau 1: équipes de résolution, Niveau 2: Centre de services"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "Toute demande d'installation d'un nouveau poste de travail doit être traitée avec le maximum d'efficacité. Quel processus ITIL vise ce résultat?",
+    "choix": [
+      "Gestion des changements (Change Management)",
+      "Relations avec la clientèle (Customer Liaison)",
+      "Gestion des problèmes (Problem Management)",
+      "Gestion des niveaux de service (Service Level Management)"
     ],
     "reponse": 1
   },
   {
-    "question": "La « chaîne de valeur du service » (SVC) d'ITIL inclut quelle activité ?",
+    "question": "Lequel des éléments suivants est un élément de configuration (Configuration Item - CI)?",
     "choix": [
-      "Plan, Improve, Engage, Design & Transition, Obtain/Build, Deliver & Support",
-      "Only Deliver",
-      "Only Plan and Close",
-      "Only Finance"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Quelle dimension est incluse dans PESTEL (ITIL4) ?",
-    "choix": [
-      "Programmation",
-      "Politique, Économique, Social, Technologique, Légal, Environnemental",
-      "Productivité uniquement",
-      "Packaging"
+      "Un appel",
+      "La documentation",
+      "Un incident",
+      "Un processus"
     ],
     "reponse": 2
   },
   {
-    "question": "Parmi les pratiques générales de management ITIL4, laquelle sert à piloter l'amélioration continue ?",
+    "question": "Comment la gestion des problèmes (Problem Management) appuie-t-elle les activités du Service Desk?",
     "choix": [
-      "Gestion de l'architecture",
-      "Amélioration continue",
-      "Gestion des talents uniquement",
-      "Déploiement des serveurs"
+      "Elle résout les incidents graves pour le Service Desk",
+      "Elle étudie tous les incidents résolus par le Service Desk",
+      "Elle libère le Service Desk en communiquant la solution directement à l'utilisateur",
+      "Elle met l'information sur une erreur connue à la disposition du Service Desk"
     ],
     "reponse": 2
   },
   {
-    "question": "Dans les pratiques de service management ITIL4, laquelle traite de la gestion des incidents ?",
+    "question": "Qu'est-ce qu'une configuration de référence (Configuration Baseline)?",
     "choix": [
-      "Gestion des demandes de service",
-      "Gestion des incidents",
-      "Gestion des fournisseurs",
-      "Gestion financière uniquement"
+      "La configuration standard pour la CMDB",
+      "Une description d'un élément de configuration uniformisé",
+      "Un ensemble de CI fournis une seule fois",
+      "Un instantané enregistré d'un produit ou service servant de base à un audit"
+    ],
+    "reponse": 4
+  },
+  {
+    "question": "Quel est le rôle de la bibliothèque des logiciels définitifs (DSL) dans la gestion des mises à jour?",
+    "choix": [
+      "Zone physique de stockage des versions originales de tous les logiciels autorisés",
+      "Manuel de référence comprenant toute la documentation sur le logiciel",
+      "Outil de référencement de tous les éléments de logiciel",
+      "Type de CMDB pour le logiciel"
+    ],
+    "reponse": 1
+  },
+  {
+    "question": "Votre service réseau a conclu une entente avec une organisation externe. Dans quel document cette entente serait-elle spécifiée?",
+    "choix": [
+      "Entente sur les niveaux d'exploitation (OLA)",
+      "Entente sur les niveaux de service (SLA)",
+      "Exigences de niveaux de service (SLR)",
+      "Contrat de sous-traitance (Underpinning Contract - UC)"
+    ],
+    "reponse": 4
+  },
+  {
+    "question": "Comment la gestion de la disponibilité travaille-t-elle avec la gestion de la sécurité?",
+    "choix": [
+      "En concluant des ententes sur la disponibilité de la base de données de sécurité",
+      "En concluant des ententes sur la sécurité de la base de données de la disponibilité",
+      "En établissant des limites de sécurité en fonction des exigences de disponibilité",
+      "En gérant les incidents de sécurité"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "À quelle question répond une organisation en précisant sa vision et ses objectifs d'affaires?",
+    "choix": [
+      "Comment nous rendre où nous voulons être?",
+      "Comment savoir si nous sommes arrivés?",
+      "Où voulons-nous être?",
+      "Où sommes-nous actuellement?"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "Quelle tâche relève de la gestion des configurations (Configuration Management)?",
+    "choix": [
+      "Réunir le comité consultatif sur la configuration",
+      "Gérer physiquement les éléments de logiciel",
+      "Installer l'équipement sur le lieu de travail",
+      "Enregistrer les relations entre les éléments de configuration (CI)"
+    ],
+    "reponse": 4
+  },
+  {
+    "question": "Une erreur connue (Known Error) a été déclarée. Que devrait-il se passer ensuite?",
+    "choix": [
+      "Tous les incidents doivent être résolus le plus rapidement possible",
+      "L'erreur doit être corrigée au moyen d'un changement",
+      "L'erreur doit être incluse dans la CMDB",
+      "Le problème doit être identifié"
     ],
     "reponse": 2
   },
   {
-    "question": "Le « centre de service » correspond le plus souvent à :",
+    "question": "Quelle est la principale tâche du traitement des erreurs (Error Control)?",
     "choix": [
-      "Le point unique de contact (SPOC) pour les utilisateurs",
-      "L'équipe marketing",
-      "L'entrepôt matériel",
-      "Un réseau de distribution"
+      "Déterminer les détails afin de trouver des solutions temporaires",
+      "Résoudre les erreurs connues au moyen du processus de gestion des changements",
+      "Reconnaître et consigner les erreurs connues",
+      "Consigner et gérer les erreurs connues"
+    ],
+    "reponse": 2
+  },
+  {
+    "question": "Quel processus ITIL est associé à une revue postimplantation (Post Implementation Review)?",
+    "choix": [
+      "Gestion des applications (Application Management)",
+      "Gestion des incidents (Incident Management)",
+      "Gestion des problèmes (Problem Management)",
+      "Gestion des mises à jour (Release Management)"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "Quelle action est requise dans le cas d'un changement complexe?",
+    "choix": [
+      "Le directeur chargé de la gestion des changements signale le changement à la gestion des problèmes",
+      "Le directeur chargé de la gestion des changements signale le changement à la gestion des incidents",
+      "Le directeur chargé de la gestion des changements présente le changement au comité consultatif sur les changements (CAB)",
+      "Le directeur chargé de la gestion des changements présente le changement au directeur des TI"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "Quelle est la différence entre la gestion des actifs technologiques et la gestion des configurations?",
+    "choix": [
+      "La gestion des actifs se préoccupe uniquement de ce que vous possédez; la gestion des configurations de toute l'infrastructure",
+      "La gestion des actifs est un sous-ensemble de la gestion des configurations",
+      "La gestion des actifs s'occupe des aspects financiers des CI; la gestion des configurations des détails techniques",
+      "La gestion des configurations est plus vaste car elle précise aussi les relations entre les actifs"
+    ],
+    "reponse": 4
+  },
+  {
+    "question": "Quel processus ITIL utilise la Durée moyenne entre les défaillances (MTBF)?",
+    "choix": [
+      "Gestion de la disponibilité (Availability Management)",
+      "Gestion des capacités (Capacity Management)",
+      "Gestion de la continuité des services des TI (IT Service Continuity Management)",
+      "Gestion des niveaux de service (Service Level Management)"
     ],
     "reponse": 1
   },
   {
-    "question": "La « gouvernance » vise à :",
+    "question": "Une entreprise met en place un intranet nécessitant une augmentation de la bande passante. Quel processus ITIL approuve cette implantation?",
     "choix": [
-      "Rassembler institutions, règles et comportements pour obtenir des décisions acceptables ou bénéfiques",
-      "Écrire uniquement du code",
-      "Réduire le personnel IT",
-      "Se concentrer uniquement sur la sécurité"
+      "Gestion des capacités (Capacity Management)",
+      "Gestion des changements (Change Management)",
+      "Gestion de la disponibilité (Availability Management)",
+      "Gestion des problèmes (Problem Management)"
+    ],
+    "reponse": 2
+  },
+  {
+    "question": "La Qualité de service se caractérise par quels éléments?",
+    "choix": [
+      "Sécurité, confidentialité, intégrité et traçabilité",
+      "Coût, délai, satisfaction client et conformité",
+      "Fiabilité, performance, capacité et disponibilité",
+      "Gouvernance, processus, organisation et technologie"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "Dans le CIM (Customer Interaction Model), le Blueprint est associé à quelle couche?",
+    "choix": [
+      "Couche Stratégique",
+      "Couche Tactique",
+      "Couche Opérationnelle",
+      "Couche Technologique"
     ],
     "reponse": 1
   },
   {
-    "question": "Le « blueprint » dans la gouvernance correspond à :",
+    "question": "Comment se définit l'efficience d'un processus?",
     "choix": [
-      "Un plan stratégique / schéma directeur",
-      "Une simple liste d'emails",
-      "Un design graphique",
-      "Le catalogue produits"
+      "Objectifs atteints / objectifs fixés",
+      "Valeur créée / coûts engagés",
+      "Résultats obtenus / moyens engagés",
+      "Incidents résolus / incidents déclarés"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "Quelle est la définition correcte d'un service?",
+    "choix": [
+      "Une prestation immatérielle composable, perceptible, qui dans une condition d'utilisation prédéfinie crée de la valeur",
+      "Un produit logiciel installé sur l'infrastructure TI",
+      "Un contrat entre un fournisseur et un client",
+      "Une ressource matérielle mise à disposition des utilisateurs"
     ],
     "reponse": 1
   },
   {
-    "question": "Quelle affirmation sur la mesure est vraie d'après la doc ?",
+    "question": "Quel est l'objectif principal de la gouvernance SI?",
     "choix": [
-      "Si on ne mesure pas, on ne peut pas gérer ni améliorer",
-      "Mesurer est inutile",
-      "Mesurer remplace l'action",
-      "Mesurer coûte toujours moins cher que ne pas mesurer"
+      "Réduire les coûts informatiques",
+      "Augmenter la performance technique",
+      "Centraliser toutes les décisions",
+      "Obtenir des décisions bénéfiques ou acceptables pour tous les acteurs"
     ],
-    "reponse": 1
+    "reponse": 4
   },
   {
-    "question": "Dans le cycle de vie d'un service, quelle étape vient après Service Design (Conception) ?",
+    "question": "Dans le cycle PDCA (Plan-Do-Check-Act), que signifie le 'P'?",
     "choix": [
-      "Service Transition (Transition)",
-      "Service Retirement uniquement",
-      "Service Marketing",
-      "Aucun suivi"
+      "Produire",
+      "Planifier",
+      "Prioriser",
+      "Performer"
     ],
-    "reponse": 1
+    "reponse": 2
   },
   {
-    "question": "Quelle est la différence principale entre « service » et « process » (selon la doc) ?",
+    "question": "L'efficience d'un processus se calcule comment?",
     "choix": [
-      "Le service se concentre sur l'offre à l'utilisateur, le process sur l'exécution et l'enchaînement d'activités",
-      "Ils sont identiques",
-      "Le process est un type de serveur",
-      "Le service n'a pas d'entrée/sortie"
+      "Qualité obtenue / temps passé",
+      "Objectifs / ressources",
+      "Résultats obtenus / moyens engagés",
+      "Performance / coût"
     ],
-    "reponse": 1
+    "reponse": 3
   },
   {
-    "question": "Qu'entend-on par « mode nominal » d'un service ?",
+    "question": "Qu'est-ce qui caractérise la manière de consommer le service?",
     "choix": [
-      "Le service dispose de l'ensemble de ses ressources et capacités",
-      "Le service est en totale panne",
-      "Le service est en cours de développement uniquement",
-      "Le service est décommissionné"
+      "Le profil de consommation",
+      "Le contexte d'utilisation",
+      "La qualité de service",
+      "Le niveau de service"
     ],
-    "reponse": 1
+    "reponse": 2
   },
   {
-    "question": "Mode « dégradé » signifie :",
+    "question": "Selon ITIL, quand est-ce qu'un service existe?",
     "choix": [
-      "Comportement du service lors d'une perte de capacité",
-      "Amélioration des performances",
-      "Nouvelle version disponible",
-      "Mode d'abonnement gratuit"
+      "Dès qu'il est développé",
+      "Quand il est documenté dans le catalogue",
+      "Dès sa mise en production",
+      "Uniquement quand il est utilisé (un service non utilisé ne crée pas de valeur)"
     ],
-    "reponse": 1
+    "reponse": 4
   },
   {
-    "question": "Quel est l'objectif d'un SLA ?",
+    "question": "Quel est l'ordre correct dans l'approche systémique SI?",
     "choix": [
-      "Décrire les services, documenter les objectifs de niveau de service et préciser responsabilités",
-      "Gérer les finances uniquement",
-      "Coder de nouvelles fonctionnalités",
-      "Former le personnel uniquement"
+      "Technologie → Urbanisation → Gouvernance",
+      "Urbanisation → Gouvernance → Technologie",
+      "Gouvernance → Urbanisation → Technologie",
+      "Technologie → Gouvernance → Urbanisation"
     ],
-    "reponse": 1
+    "reponse": 3
   },
   {
-    "question": "Le catalogue IT Service (exemple MSF) est utilisé pour :",
+    "question": "Dans le CIM, l'efficacité est associée à quelle couche?",
     "choix": [
-      "Publier les services offerts et les informations de base pour les clients et l'IT",
-      "Stocker les mots de passe utilisateurs",
-      "Remplacer l'intranet",
-      "Gérer uniquement le parc matériel"
+      "Couche Stratégique",
+      "Couche Tactique",
+      "Couche Opérationnelle",
+      "Couche Technique"
     ],
-    "reponse": 1
+    "reponse": 3
   },
   {
-    "question": "La roue de Deming représente :",
+    "question": "Quelle est la définition correcte d'un problème selon ITIL?",
     "choix": [
-      "Plan, Do, Check, Act — cycle d'amélioration continue",
-      "Un modèle de sécurité physique",
-      "Une méthode de déploiement logiciel",
-      "Une architecture réseau"
+      "Une cause connue d'incidents",
+      "La cause inconnue d'un ou plusieurs incidents",
+      "Une erreur dans l'infrastructure",
+      "Un incident récurrent"
     ],
-    "reponse": 1
+    "reponse": 2
   },
   {
-    "question": "Le rapport opérationnel idéal selon la doc doit montrer :",
+    "question": "Où sont stockés les logiciels mis en production?",
     "choix": [
-      "Au moins 5% d'indicateurs rouges, 15% orange, 80% verts (réalisme)",
-      "100% verts toujours",
-      "Uniquement des rouges",
-      "Aucun indicateur"
+      "Dans la CMDB (Configuration Management Database)",
+      "Dans la KEDB (Known Error Database)",
+      "Dans la DML (Definitive Media Library)",
+      "Dans le DSL (Definitive Software Library)"
     ],
-    "reponse": 1
+    "reponse": 3
   },
   {
-    "question": "Quelle pratique ITIL s'occupe de la gestion des configurations et des actifs de service ?",
-    "choix": [
-      "Gestion des actifs IT et Gestion des configurations (CMDB)",
-      "Gestion financière uniquement",
-      "Centre de production uniquement",
-      "Design graphique"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Gestion de la capacité et performance se place plutôt :",
-    "choix": [
-      "Dans la fourniture des services (Service Delivery)",
-      "Dans le marketing",
-      "Dans les RH",
-      "Hors scope ITIL"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Dans le cycle projet/service, que signifie MEP (mise en production) ?",
-    "choix": [
-      "Mise en exploitation / mise en production d'un service ou d'une version",
-      "Mission d'évaluation personnelle",
-      "Module d'enseignement professionnel",
-      "Méthode d'épargne publique"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Dans la terminologie ITIL, qu'est-ce qu'une « pratique » (ITIL4) ?",
-    "choix": [
-      "Un ensemble de ressources organisationnelles conçues pour effectuer un travail et atteindre un objectif",
-      "Un entraînement sportif",
-      "Un langage de programmation",
-      "Un serveur virtuel"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Parmi ces activités ITIL SVC, laquelle concerne l'obtention et la construction ?",
-    "choix": [
-      "Obtain/Build — assurer que les composants sont disponibles et conformes aux spécifications",
-      "Only Plan",
-      "Only Engage",
-      "Only Improve"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "L'« urbanisation » IT vise principalement :",
-    "choix": [
-      "L'organisation et l'aménagement des espaces informatiques pour assurer cohérence et efficacité",
-      "Construire des villes physiques",
-      "Remplacer tous les serveurs par des containers",
-      "Augmenter le marketing produit"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Quelle est l'idée clé derrière « if you don't measure it, you can't manage it » ?",
-    "choix": [
-      "Mesurer est indispensable pour piloter et améliorer un service",
-      "Mesurer est optionnel",
-      "Mesurer remplace l'humain",
-      "Mesurer coûte toujours plus que ne pas mesurer"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Le profil « Camel » (chameau) se caractérise par :",
-    "choix": [
-      "Deux bosses = pics matin et après-midi (usage non uniforme)",
-      "Usage nocturne uniquement",
-      "Usage constant 24/7",
-      "Usage uniquement le dimanche"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Que recouvre la « gouvernance de service » ?",
-    "choix": [
-      "Processus, comités, référentiels, mesures, reporting, SLA, OLA, acteurs…",
-      "Uniquement le service desk",
-      "La sécurité uniquement",
-      "Le budget seulement"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Quel est le rôle du Service Owner (propriétaire de service) ?",
-    "choix": [
-      "Responsable global du service (fonctionnel & SLA) et point de décision pour le service",
-      "Gérer uniquement les incidents techniques",
-      "Installer les mises à jour uniquement",
-      "Faire le marketing produit"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "La « VSR / VABF / VABE » dans le cycle de vie fait référence à :",
-    "choix": [
-      "Vérifications et validations (différents jalons de validation technique et fonctionnelle)",
-      "Types d'architectures réseau",
-      "Protocoles de sécurité uniquement",
-      "Modèles de facturation"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Dans la présentation, quel pourcentage approximatif représentent les organisations « proactives » selon Gartner (doc) ?",
+    "question": "Selon les statistiques ITIL classiques, quel pourcentage d'incidents sont liés à un changement?",
     "choix": [
       "40%",
-      "30%",
-      "1%",
-      "100%"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Les niveaux de maturité (Chaos → Réactif → Proactif → Service → Valeur) indiquent :",
-    "choix": [
-      "L'évolution de la maturité des pratiques IT et de gestion des services",
-      "La performance d'un disque dur",
-      "Le niveau d'une base de données",
-      "Le statut d'un ticket Jira"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Parmi ces référentiels, lequel est spécifiquement centré sur la sécurité de l'information ?",
-    "choix": [
-      "ISO 27001",
-      "ITIL uniquement",
-      "Six Sigma uniquement",
-      "COBIT uniquement"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "COBIT est principalement utilisé pour :",
-    "choix": [
-      "Mettre sous contrôle l'ensemble des opérations liées à l'information et gérer les risques IT",
-      "Gérer les tickets au quotidien",
-      "Remplacer le catalogue de services",
-      "Déployer des serveurs uniquement"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Six Sigma est une méthode :",
-    "choix": [
-      "Applicable à l'ensemble des processus pour mesurer les écarts en termes de qualité de service",
-      "Une bibliothèque de code",
-      "Un protocole réseau",
-      "Un format d'image"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "TCO (Total Cost of Ownership) vise à :",
-    "choix": [
-      "Justifier les investissements et optimiser les coûts de soutien d'une ressource IT",
-      "Mesurer la disponibilité uniquement",
-      "Remplacer la CMDB",
-      "Gérer les contrats fournisseurs uniquement"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Dans la doc, quelle proportion des failles de sécurité est attribuée au personnel ?",
-    "choix": [
-      "85% (failles liées au personnel)",
-      "15%",
-      "50%",
-      "0%"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "La « cartographie » dans le contexte service signifie :",
-    "choix": [
-      "Représentation des services, applications, composants et relations (topologie)",
-      "Carte routière physique",
-      "Carte bancaire",
-      "Plan marketing"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Quel comité surveille les opérations quotidiennes (ex. QoS) dans la doc ?",
-    "choix": [
-      "Service Delivery or QoS committee / Morning check selon contexte",
-      "Conseil d'administration uniquement",
-      "Comité marketing",
-      "Aucun comité requis"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Dans le modèle présenté, que signifie « SPOC » ?",
-    "choix": [
-      "Single Point Of Contact (point unique de contact)",
-      "Security Point Of Control",
-      "System Process Of Change",
-      "Supplier Point Of Contract"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Le « catalogue de services » doit contenir au minimum :",
-    "choix": [
-      "Description du service, indicateurs opérationnels, reporting, clients, SLA/contrat, mode d'exécution",
-      "La liste des numéros de série du matériel",
-      "Seulement les contacts RH",
-      "Les horaires de la cantine"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "« Service Level Requirement » (SLR) correspond à :",
-    "choix": [
-      "Les exigences de niveau de service demandées par le client",
-      "Le plan de maintenance des imprimantes",
-      "Un protocole réseau",
-      "Le budget marketing"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Quelle pratique ITIL gère le portefeuille de services (Service Portfolio) ?",
-    "choix": [
-      "Gestion du portefeuille des services",
-      "Gestion de la capacité uniquement",
-      "Gestion des incidents uniquement",
-      "Gestion des accès uniquement"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Quel est le but principal du « Service Desk » ?",
-    "choix": [
-      "Fournir support, point de contact, gérer incidents et demandes de service",
-      "Écrire la stratégie d'entreprise",
-      "Créer le catalogue des services uniquement",
-      "Gérer la comptabilité"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Dans le modèle de production, qu'est-ce qu'une « ligne de production IT » (IT Production line) ?",
-    "choix": [
-      "Ensemble d'éléments et processus permettant la production récurrente de services",
-      "Une seule VM",
-      "Un poste de travail isolé",
-      "Un contrat fournisseur"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "« Business Alignment » signifie :",
-    "choix": [
-      "Aligner les services IT sur les besoins métiers présents et futurs",
-      "Écrire du code uniquement sur demande",
-      "Supprimer toutes les réunions",
-      "Créer un data center"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Dans le SIPOC, les « Inputs » incluent :",
-    "choix": [
-      "Documents, évènements, données, processus…",
-      "Seulement le budget",
-      "Uniquement les emails RH",
-      "Les mots de passe"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Quel indicateur est prioritaire pour piloter un service critique (ex. disponibilité) ?",
-    "choix": [
-      "Disponibilité (uptime)",
-      "Taille de l'équipe marketing",
-      "Nombre de logos sur le site",
-      "Version du navigateur"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Le terme « exploitabilité » dans le cycle VABE/VABF se réfère à :",
-    "choix": [
-      "Evaluer si la solution est exploitable opérationnellement (maintenabilité, opérabilité…)",
-      "Exploiter des failles de sécurité",
-      "Vendre une application",
-      "Archiver des emails"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Dans ITIL, « Request Fulfilment » correspond :",
-    "choix": [
-      "À l'exécution des requêtes/demandes de service (ex. demandes utilisateurs courantes)",
-      "À la gestion financière uniquement",
-      "À la création de la CMDB uniquement",
-      "Aux sauvegardes uniquement"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Quel est l'objectif de la gestion des changements (Change Management) ?",
-    "choix": [
-      "Contrôler et piloter les modifications pour minimiser l'impact sur les services",
-      "Bloquer toute évolution",
-      "Gérer uniquement le parc matériel",
-      "Écrire du code de sécurité"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "La « gestion des problèmes » vise principalement à :",
-    "choix": [
-      "Identifier causes racines et prévenir incidents récurrents",
-      "Supprimer tous les tickets",
-      "Augmenter le budget IT sans raison",
-      "Archiver les logs"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "« Gestion de la continuité des services IT » a pour objectif :",
-    "choix": [
-      "Assurer la continuité des services en cas d'incident majeur (DRP, PRA)",
-      "Réorganiser le service desk uniquement",
-      "Fermer le data center",
-      "Réduire les équipes"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Dans la slide sur le test de service, quel est l'objectif des tests ?",
-    "choix": [
-      "Vérifier conformité, performances, scalabilité et adéquation aux SLAs",
-      "Effacer les logs après chaque test",
-      "Augmenter la capacité sans justification",
-      "Remplacer la documentation"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Le « portfolio de services » aide à :",
-    "choix": [
-      "Décider quels services développer, maintenir ou retirer (gestion de portefeuille)",
-      "Remplacer l'équipe de direction",
-      "Sauvegarder les emails",
-      "Créer des habitudes marketing"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Où se situe la « gestion financière des services IT » dans ITIL ?",
-    "choix": [
-      "Dans la couche de fourniture des services (Service Delivery / Strategic)",
-      "Dans le centre de production uniquement",
-      "Hors scope ITIL",
-      "Dans le marketing"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "« Requests », « Incidents » et « Problems » : laquelle est la plus opérationnelle et de court terme ?",
-    "choix": [
-      "Incidents (restaurer le service rapidement)",
-      "Problems (analyse racine long terme)",
-      "Requests (demandes standard)",
-      "Projects (stratégie long terme)"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "La « grille d'exploitabilité » est utilisée pour :",
-    "choix": [
-      "Vérifier que le service peut être exploité avant passage en production",
-      "Contrôler les dépenses RH uniquement",
-      "Remplacer le SLA",
-      "Gérer la comptabilité"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Quelle pratique s'occupe de la gestion des accès ?",
-    "choix": [
-      "Gestion des accès (Access Management)",
-      "Gestion des incidents uniquement",
-      "Gestion financière uniquement",
-      "Gestion de la configuration"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "L'objectif d'un « Service Owner » inclut la définition d'objectifs et :",
-    "choix": [
-      "Le pilotage des indicateurs, le reporting et la relation client sur le service",
-      "L'administration système uniquement",
-      "La livraison des commandes matérielles",
-      "La gestion d'un parc automobile"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Qu'est-ce qu'un « OLA » ?",
-    "choix": [
-      "Operational Level Agreement — accord interne définissant responsabilités entre équipes pour supporter un SLA",
-      "Offre Logistique Avancée",
-      "Un langage de script",
-      "Un type de serveur"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Dans la présentation, quel est un facteur clé de succès (CSF) pour un processus ?",
-    "choix": [
-      "Indicateurs de performance (KPI) et contrôles de gestion",
-      "Couleur de l'interface utilisateur",
-      "Taille des bureaux",
-      "Nombre de cafés offerts"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "La notion de « composant de service » signifie que :",
-    "choix": [
-      "Un service peut être composé de plusieurs sous-services héritant du contexte du service père",
-      "Un service ne peut pas être décomposé",
-      "Un service est toujours matériel",
-      "Un composant est une licence logicielle uniquement"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "L'axe « usage » et « execution » comparés vise à :",
-    "choix": [
-      "Aligner le profil d'usage utilisateur avec le profil d'exécution du fournisseur (optimum = égalité)",
-      "Remplacer les serveurs par des containers",
-      "Définir le budget marketing",
-      "Gérer la paie des employés"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Selon la doc, quelle est la première condition pour construire la confiance client ?",
-    "choix": [
-      "Avoir un reporting opérationnel clair et fiable",
-      "Avoir un site web flashy",
-      "Réduire le personnel d'assistance",
-      "Augmenter les prix sans explication"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "« Measure & Commitment » dans une approche service fait référence à :",
-    "choix": [
-      "Mesurer les indicateurs et s'engager sur des niveaux de service (SLA, KPI)",
-      "Acheter du matériel uniquement",
-      "Réduire les services offerts",
-      "Former uniquement l'équipe commerciale"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Dans ITIL, la « gestion des connaissances » vise à :",
-    "choix": [
-      "Capitaliser et partager le savoir pour améliorer la résolution d'incidents et la qualité du service",
-      "Stocker uniquement les documents RH",
-      "Développer uniquement du code",
-      "Supprimer tous les documents techniques"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Le concept de « service générique » signifie :",
-    "choix": [
-      "Possibilité d'assembler des composants pour créer des services plus complexes et réutilisables",
-      "Service identique pour tous les clients sans personnalisation possible",
-      "Uniquement service matériel",
-      "Un service en mode dégradé"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Dans la doc, quelle est la recommandation sur le nombre d'indicateurs visibles pour piloter ?",
-    "choix": [
-      "Limiter le nombre à environ 3 indicateurs principaux",
-      "Avoir 50 indicateurs par équipe",
-      "Aucun indicateur nécessaire",
-      "Avoir 100 indicateurs rouges"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Quel est l'intérêt d'un « portfolio de projets / services » ?",
-    "choix": [
-      "Gérer priorités, coûts et alignement stratégique entre projets et services",
-      "Supprimer toutes les comités",
-      "Augmenter les incidents",
-      "Gérer uniquement l'inventaire matériel"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Dans ITIL, la « continual improvement » (amélioration continue) s'applique :",
-    "choix": [
-      "À l'ensemble des activités, produits et services pour optimiser en permanence",
-      "Seulement au déploiement réseau",
-      "À la paie uniquement",
-      "À la suppression des tests"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Le terme « Use context » (contexte d'usage) correspond :",
-    "choix": [
-      "Au point de vue utilisateur — comment il consomme le service (profil d'usage)",
-      "À l'architecture réseau uniquement",
-      "Au format de sauvegarde",
-      "À la facture client"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "« Execution context » correspond :",
-    "choix": [
-      "Au point de vue du fournisseur — comment le service est produit et opéré",
-      "Au marketing du service uniquement",
-      "Au catalogue produit uniquement",
-      "Au budget IT uniquement"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Parmi les pratiques ITIL4, laquelle correspond à la « gestion de la continuité » ?",
-    "choix": [
-      "Gestion de la continuité des services IT (pratique de service)",
-      "Gestion des licences uniquement",
-      "Gestion de la sécurité physique uniquement",
-      "Gestion du marketing produit"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Quelle est l'importance d'un « SLA signé » avant le lancement d'un service récurrent ?",
-    "choix": [
-      "Figer les engagements, clarifier responsabilités et niveaux attendus pour client et fournisseur",
-      "Remplacer la formation équipe",
-      "Supprimer le catalogue",
-      "Diminuer la qualité de service"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Le « Business Relationship Management » a pour objectif de :",
-    "choix": [
-      "Gérer la relation avec les clients, comprendre leurs besoins et attentes",
-      "Lancer uniquement des campagnes publicitaires",
-      "Gérer le parc matériel uniquement",
-      "Créer des tickets automatiquement sans suivi"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Quel est le rôle du « Service Architect » mentionné dans la gouvernance ?",
-    "choix": [
-      "Concevoir l'architecture du service (composants, intégration, conformité aux SLAs)",
-      "Gérer la comptabilité uniquement",
-      "Installer postes utilisateurs uniquement",
-      "Gérer la logistique du bureau"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Que signifie « avoid watermelon syndrome » dans le reporting ?",
-    "choix": [
-      "Éviter d'afficher des indicateurs verts alors que l'intérieur (données détaillées) est en rouge — donc vraie visibilité requise",
-      "Manger moins de pastèque au bureau",
-      "Avoir uniquement des indicateurs orange",
-      "Faire des rapports uniquement en couleur verte"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Enfin, quelle est la recommandation générale en gouvernance avant d'introduire des changements ?",
-    "choix": [
-      "S'assurer que les changements restent maîtrisables et maîtrisés (gestion du risque, pilotage, communication)",
-      "Déployer sans tests",
-      "Supprimer toute documentation",
-      "Changer tout en même temps sans coordination"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Un service IT est principalement destiné à :",
-    "choix": [
-      "Réduire les coûts internes",
-      "Apporter de la valeur au client",
-      "Ajouter des contraintes",
-      "Remplacer les équipes métiers"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Un service crée de la valeur en :",
-    "choix": [
-      "Éliminant toute intervention humaine",
-      "Facilitant les résultats métier du client",
-      "Supprimant toutes les technologies anciennes",
-      "Garantissant aucune panne"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "La valeur d'un service repose sur :",
-    "choix": [
-      "Utilité + Garantie",
-      "Budget du service uniquement",
-      "Nombre de serveurs",
-      "Nombre de tickets traités"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "L'utilité (\"Utility\") définit :",
-    "choix": [
-      "Comment le service fonctionne techniquement",
-      "Ce que le service fait pour le client",
-      "La durée de vie du matériel",
-      "Un niveau de risque acceptable"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "La garantie (\"Warranty\") concerne :",
-    "choix": [
-      "Le design visuel de l'interface",
-      "Le fait que le service soit fiable, disponible et performant",
-      "Le nombre de demandes reçues",
-      "Le coût d'exploitation"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "La perception d'un service par l'utilisateur dépend surtout :",
-    "choix": [
-      "De la documentation interne",
-      "De la valeur ressentie",
-      "De la puissance du datacenter",
-      "Du prix du matériel"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Dans un service, un \"output\" correspond :",
-    "choix": [
-      "Aux exigences client",
-      "Au résultat produit par le service",
-      "Aux contraintes organisationnelles",
-      "Aux moyens investis"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Un \"outcome\" correspond :",
-    "choix": [
-      "À l'effet métier obtenu par le client",
-      "À la charge de travail du support",
-      "Aux tests techniques",
-      "À l'architecture système"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "L'expérience utilisateur dépend surtout :",
-    "choix": [
-      "De la puissance des serveurs",
-      "Des interactions avec le service",
-      "De la politique RH",
-      "Du fournisseur cloud"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "La co-création de valeur implique :",
-    "choix": [
-      "Que seul le fournisseur crée la valeur",
-      "Que le client et le fournisseur contribuent à la valeur",
-      "Que les utilisateurs gèrent eux-mêmes le service",
-      "Que le support devienne inutile"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Le coût total d'un service (\"TCO\") inclut :",
-    "choix": [
-      "Seulement les machines",
-      "Investissement + exploitation + support",
-      "Le prix de vente uniquement",
-      "La marge commerciale"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Un service \"orienté client\" se caractérise par :",
-    "choix": [
-      "De nombreuses fonctionnalités",
-      "Une réponse aux besoins réels du métier",
-      "Un maximum d'automatisation",
-      "Un faible coût"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Un service dégradé signifie :",
-    "choix": [
-      "Qu'il est en panne totale",
-      "Qu'il fonctionne avec une capacité réduite",
-      "Qu'il sera bientôt supprimé",
-      "Qu'il est en test"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "La valeur d'un service dépend aussi de :",
-    "choix": [
-      "Sa popularité",
-      "Sa capacité à réduire les risques métier",
-      "Son design graphique",
-      "Sa consommation électrique"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Un service \"critique\" est celui qui :",
-    "choix": [
-      "Coûte cher",
-      "Impacte directement les opérations métier s'il tombe",
-      "Est lié à un projet stratégique",
-      "Nécessite des serveurs puissants"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "L'utilisateur final est :",
-    "choix": [
-      "L'équipe de support",
-      "Le consommateur du service",
-      "Le développeur",
-      "La direction générale"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Une demande de service (Request) concerne :",
-    "choix": [
-      "Un dysfonctionnement",
-      "Une demande standard ou information",
-      "Un arrêt système",
-      "Un problème récurrent"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Un incident concerne :",
-    "choix": [
-      "Un besoin métier",
-      "Une rupture de service",
-      "Une demande d'évolution",
-      "Un problème structurel"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "La résolution d'incident vise :",
-    "choix": [
-      "À éliminer la cause racine",
-      "À rétablir le service au plus vite",
-      "À améliorer les performances",
-      "À supprimer les anciens tickets"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Un problème correspond :",
-    "choix": [
-      "À une panne majeure",
-      "À la cause inconnue d'un ou plusieurs incidents",
-      "À un serveur en surcharge",
-      "À une demande métier"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "La disponibilité mesure :",
-    "choix": [
-      "La vitesse réseau",
-      "Le pourcentage de temps où le service est opérationnel",
-      "La charge CPU",
-      "Le nombre de requêtes"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Un SLA fixe :",
-    "choix": [
-      "Les règles internes",
-      "Les engagements entre fournisseur et client",
-      "Le budget projet",
-      "Le cahier des charges"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Un OLA fixe :",
-    "choix": [
-      "Les responsabilités entre équipes internes",
-      "Le contrat client",
-      "La stratégie d'entreprise",
-      "Le budget annuel"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "La fiabilité d'un service correspond à :",
-    "choix": [
-      "Son coût",
-      "Son taux de fonctionnement sans erreur",
-      "La puissance CPU",
-      "La charge utilisateur"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "99,9% de disponibilité correspond environ à :",
-    "choix": [
-      "50 h d'indisponibilité",
-      "1 h d'indisponibilité",
-      "43 min d'indisponibilité",
-      "10 secondes"
+      "60%",
+      "80%",
+      "90%"
     ],
     "reponse": 3
   },
   {
-    "question": "L'indicateur MTTR mesure :",
+    "question": "Quel est le profil d'usage typique d'un centre de services?",
     "choix": [
-      "La durée entre deux pannes",
-      "Le temps moyen de réparation",
-      "La capacité maximale",
-      "Le nombre de demandes"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "L'indicateur MTBF mesure :",
-    "choix": [
-      "Le temps entre deux pannes",
-      "Le temps de résolution",
-      "Le nombre d'incidents par mois",
-      "Le temps de chargement"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Le capacity management vise :",
-    "choix": [
-      "À acheter du matériel",
-      "À anticiper la charge pour garantir la performance",
-      "À réduire le trafic réseau",
-      "À fermer les services peu utilisés"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Un service \"scalable\" est :",
-    "choix": [
-      "Beau visuellement",
-      "Capable d'augmenter ou réduire sa capacité",
-      "Peu coûteux",
-      "Facile à programmer"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "La performance perçue dépend beaucoup de :",
-    "choix": [
-      "L'espace disque",
-      "Les temps de réponse et de traitement",
-      "Le climat local",
-      "Le budget réseau"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Le monitoring permet de :",
-    "choix": [
-      "Créer des processus",
-      "Détecter anomalies et usages",
-      "Faire une roadmap",
-      "Modifier le budget"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Les KPIs servent à :",
-    "choix": [
-      "Augmenter les coûts",
-      "Mesurer la performance",
-      "Renforcer la gouvernance",
-      "Remplacer les SLA"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Une surcharge système provoque souvent :",
-    "choix": [
-      "Une augmentation de la disponibilité",
-      "Une dégradation de performances",
-      "Une augmentation de la qualité",
-      "Un retrait de la moitié des utilisateurs"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Le \"profil d'usage\" décrit :",
-    "choix": [
-      "L'architecture réseau",
-      "Les variations de consommation du service",
-      "Le nombre de serveurs",
-      "La consommation électrique"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Le \"profil d'exécution\" décrit :",
-    "choix": [
-      "Comment les utilisateurs agissent",
-      "Comment l'IT produit le service",
-      "Les besoins financiers",
-      "Les processus RH"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Un SLA doit être :",
-    "choix": [
-      "Technique uniquement",
-      "Compréhensible par le métier",
-      "Rédigé en langage juridique",
-      "Sans indicateurs"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Une QoS élevée suppose :",
-    "choix": [
-      "Beaucoup de développeurs",
-      "Un alignement usage / exécution",
-      "Un datacenter neuf",
-      "Un budget marketing élevé"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "La capacité insuffisante entraîne :",
-    "choix": [
-      "Une meilleure qualité",
-      "Des temps de réponse élevés",
-      "Une réduction du nombre d'utilisateurs",
-      "Une baisse de coûts"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Une escalade fonctionnelle concerne :",
-    "choix": [
-      "Une panne matérielle",
-      "Une demande métier",
-      "Une montée au niveau supérieur d'expertise",
-      "Le changement de serveur"
+      "Profil plat (charge constante)",
+      "Profil en cloche (pic en milieu de journée)",
+      "Profil en mur (grosse charge à l'ouverture)",
+      "Profil aléatoire"
     ],
     "reponse": 3
   },
   {
-    "question": "Une escalade hiérarchique intervient :",
+    "question": "COBIT est un référentiel de quoi?",
     "choix": [
-      "Lorsque le support ne répond pas assez vite",
-      "Lorsque la performance est trop élevée",
-      "Lorsque le SLA est supprimé",
-      "Lors de tests unitaires"
+      "Gestion des services IT",
+      "Gestion de projet",
+      "Gouvernance IT",
+      "Sécurité informatique"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "Dans ITIL 4, quel est l'objectif des 4 dimensions du management des services?",
+    "choix": [
+      "Réduire les coûts",
+      "Améliorer la performance",
+      "Apporter de la valeur",
+      "Assurer la conformité"
+    ],
+    "reponse": 3
+  },
+  {
+    "question": "Dans ITIL V3, la valeur d'un service est créée par quoi?",
+    "choix": [
+      "Utilité + Garantie (Utility + Warranty)",
+      "Performance + Disponibilité",
+      "Coût + Qualité",
+      "Efficacité + Efficience"
     ],
     "reponse": 1
   },
   {
-    "question": "ITIL est un :",
+    "question": "Quel est traditionnellement le processus le plus important en ITIL?",
     "choix": [
-      "Standard légal",
-      "Cadre de bonnes pratiques",
-      "Langage de programmation",
-      "Guide financier"
+      "Gestion des incidents",
+      "Gestion des problèmes",
+      "Gestion de la disponibilité",
+      "Gestion des changements (car il prévient incidents et problèmes)"
     ],
-    "reponse": 2
+    "reponse": 4
   },
   {
-    "question": "ITIL 4 met l'accent sur :",
+    "question": "Qu'indique un événement de type 'Information'?",
     "choix": [
-      "Les processus stricts",
-      "La co-création de valeur",
-      "Le matériel informatique",
-      "Les architectures réseau"
+      "Un dysfonctionnement mineur",
+      "Une alerte à traiter",
+      "Un fonctionnement normal du système",
+      "Une erreur de configuration"
     ],
-    "reponse": 2
-  },
-  {
-    "question": "La chaîne de valeur ITIL 4 comporte :",
-    "choix": [
-      "2 activités",
-      "6 activités",
-      "15 activités",
-      "1 seule activité"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "L'activité \"Engage\" concerne :",
-    "choix": [
-      "La cybersécurité",
-      "Les relations avec clients et fournisseurs",
-      "Le test technique",
-      "La gestion des risques"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "\"Design & Transition\" concerne :",
-    "choix": [
-      "Le support utilisateur",
-      "L'introduction de nouvelles versions en production",
-      "La création d'incidents",
-      "La gestion du budget"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "\"Obtain/Build\" concerne :",
-    "choix": [
-      "Les achats, développements et composants techniques",
-      "La gestion du personnel",
-      "La communication",
-      "La gouvernance métier"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "\"Deliver & Support\" concerne :",
-    "choix": [
-      "Le reporting",
-      "Le support et l'exploitation quotidienne",
-      "La stratégie",
-      "Le budget annuel"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Une \"practice\" ITIL 4 est :",
-    "choix": [
-      "Un serveur",
-      "Un ensemble de ressources organisationnelles",
-      "Un incident",
-      "Un projet"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "L'amélioration continue ITIL vise :",
-    "choix": [
-      "À éliminer la documentation",
-      "À optimiser les services en continu",
-      "À remplacer les serveurs",
-      "À réduire les utilisateurs"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "La gestion des incidents vise :",
-    "choix": [
-      "À prévenir les pannes",
-      "À rétablir le service rapidement",
-      "À analyser causes racines",
-      "À gérer les demandes standard"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "La gestion des problèmes vise :",
-    "choix": [
-      "À rendre le service plus rapide",
-      "À identifier et éliminer les causes racines",
-      "À supprimer les incidents",
-      "À gérer les accès"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "La gestion du changement vise :",
-    "choix": [
-      "À supprimer les erreurs",
-      "À contrôler les modifications",
-      "À améliorer les performances réseau",
-      "À gérer les budgets"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Un changement urgent est :",
-    "choix": [
-      "Un changement sans risque",
-      "Un changement devant être traité rapidement",
-      "Un changement annuel",
-      "Un changement utilisateur standard"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Le CAB est :",
-    "choix": [
-      "Un outil de test",
-      "Un comité évaluant les changements",
-      "Un serveur critique",
-      "Un budget annuel"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "La CMDB contient :",
-    "choix": [
-      "Des SLA",
-      "Les éléments de configuration et leurs relations",
-      "Les incidents",
-      "Le budget IT"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "La gestion des actifs IT concerne :",
-    "choix": [
-      "Les utilisateurs",
-      "Les matériels et logiciels",
-      "Les processus RH",
-      "Le coût du marketing"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "ITIL 4 introduit le concept de :",
-    "choix": [
-      "Développement matériel",
-      "Système de valeur des services",
-      "Des serveurs premium",
-      "Finances cloud"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Le SVS repose sur :",
-    "choix": [
-      "4 composants",
-      "Gouvernance + Practices + SVC + Principes directeurs",
-      "Le matériel uniquement",
-      "La communication"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Les 7 principes directeurs incluent :",
-    "choix": [
-      "Un seul processus",
-      "Progresser itérativement",
-      "Supprimer la documentation",
-      "Améliorer la sécurité"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Le principe \"Start where you are\" signifie :",
-    "choix": [
-      "Réécrire tout le système",
-      "Analyser ce qui existe avant de changer",
-      "Supprimer les anciens outils",
-      "Augmenter les équipes"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "La gouvernance IT fixe :",
-    "choix": [
-      "Le design des logos",
-      "Les orientations et décisions majeures",
-      "La vitesse du réseau",
-      "Les outils de monitoring"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Le portfolio des services inclut :",
-    "choix": [
-      "Uniquement les services en production",
-      "Pipeline + catalogue + services retirés",
-      "Les incidents",
-      "Les budgets annuels"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Le catalogue des services inclut :",
-    "choix": [
-      "Une description des services disponibles pour les clients",
-      "Les logs techniques",
-      "Des données internes RH",
-      "Des processus juridiques"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Un SLR est :",
-    "choix": [
-      "Une demande d'incident",
-      "Une exigence de niveau de service",
-      "Une procédure RH",
-      "Un composant CI"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Le propriétaire de service (Service Owner) est responsable :",
-    "choix": [
-      "Du budget global",
-      "De la performance et de la qualité du service",
-      "Du support niveau 1",
-      "Du réseau"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Une roadmap sert à :",
-    "choix": [
-      "Définir l'évolution du service",
-      "Redémarrer les serveurs",
-      "Gérer les incidents",
-      "Installer logiciels"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "La gouvernance s'appuie notamment sur :",
-    "choix": [
-      "Les KPIs et le reporting",
-      "La sécurité physique",
-      "La gestion RH",
-      "Les migrations cloud"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Les comités QoS analysent :",
-    "choix": [
-      "Le design graphique",
-      "Les indicateurs de qualité de service",
-      "Le nombre d'outils installés",
-      "Les politiques RH"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "La gestion des fournisseurs concerne :",
-    "choix": [
-      "Les services internes uniquement",
-      "Les contrats externes supportant les services",
-      "Les projets marketing",
-      "Les tests techniques"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Un UC (Underpinning Contract) lie :",
-    "choix": [
-      "Client / métier",
-      "Fournisseur externe / IT",
-      "Support / sécurité",
-      "Direction / utilisateurs"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Le SLA se base sur :",
-    "choix": [
-      "Le catalogue",
-      "Les besoins métiers",
-      "Les incidents",
-      "Le hardware"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Un service peut avoir plusieurs :",
-    "choix": [
-      "Propriétaires",
-      "Composants",
-      "SLR",
-      "Centres de coûts"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "L'alignement Business–IT vise :",
-    "choix": [
-      "À réduire le personnel",
-      "À aligner services et objectifs métier",
-      "À éliminer les SLA",
-      "À créer plus de tickets"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Un service externalisé doit avoir :",
-    "choix": [
-      "Un OLA",
-      "Un UC",
-      "Un Plan RH",
-      "Un partenariat interne"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Une revue de service (Service Review) permet :",
-    "choix": [
-      "D'évaluer le respect des SLA",
-      "De recruter",
-      "De remplacer les serveurs",
-      "D'arrêter les incidents"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Le cycle annuel de gouvernance inclut :",
-    "choix": [
-      "Budget, Performance, Roadmap",
-      "Cartographie géographique",
-      "Recrutement",
-      "Marketing"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Un bon indicateur doit être :",
-    "choix": [
-      "Compréhensible et mesurable",
-      "Complexe",
-      "Interne uniquement",
-      "Graphique"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Le syndrome \"pastèque\" décrit :",
-    "choix": [
-      "Indicateur vert mais réalité rouge",
-      "Indicateur orange mais réalité verte",
-      "Indicateur bleu",
-      "Indicateur absent"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "La maturité des services évolue :",
-    "choix": [
-      "Chaos → Proactif → Valeur",
-      "Valeur → Chaos",
-      "Réactif → Chaos",
-      "Support → Chaos"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Une organisation \"proactive\" :",
-    "choix": [
-      "Réagit aux problèmes après coup",
-      "Anticipe incidents et améliorations",
-      "Ignore les données",
-      "Supprime les tests"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "La sécurité de l'information vise :",
-    "choix": [
-      "À accélérer le réseau",
-      "Confidentialité, intégrité, disponibilité",
-      "À ajouter du hardware",
-      "À remplacer l'ITIL"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "ISO 27001 concerne :",
-    "choix": [
-      "La performance",
-      "Le management de la sécurité",
-      "Le budget",
-      "Le cloud"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Un PRA concerne :",
-    "choix": [
-      "La reprise d'activité après sinistre",
-      "Le monitoring",
-      "Une demande utilisateur",
-      "Un SLA"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Une sauvegarde garantit :",
-    "choix": [
-      "La continuité immédiate",
-      "La possibilité de restaurer",
-      "L'absence de panne",
-      "La sécurité totale"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Le contrôle d'accès gère :",
-    "choix": [
-      "Les tickets",
-      "Qui peut accéder à quoi",
-      "La performance",
-      "Les incidents"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Le patch management vise :",
-    "choix": [
-      "À développer plus vite",
-      "À corriger les failles et améliorer la stabilité",
-      "À fermer les systèmes",
-      "À réduire la performance"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Le monitoring proactif permet :",
-    "choix": [
-      "De détecter anomalies avant impact",
-      "De supprimer incidents",
-      "D'éviter les SLA",
-      "D'augmenter la charge"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Un test de charge mesure :",
-    "choix": [
-      "Le comportement du service sous forte utilisation",
-      "La sécurité",
-      "Le budget",
-      "La qualité graphique"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Une CMDB incorrecte entraîne :",
-    "choix": [
-      "Une meilleure qualité",
-      "Une mauvaise connaissance des impacts",
-      "Une réduction des incidents",
-      "Une augmentation automatique de performance"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Un service non documenté :",
-    "choix": [
-      "Est plus rapide",
-      "Pose des risques opérationnels",
-      "Est plus flexible",
-      "Est totalement sécurisé"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "L'exploitation quotidienne comprend :",
-    "choix": [
-      "La maintenance et le support",
-      "Les embauches",
-      "Les SLA",
-      "Le design"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Un incident majeur nécessite :",
-    "choix": [
-      "Une procédure spécifique",
-      "Un simple ticket standard",
-      "Un changement matériel",
-      "Un OLA"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "La supervision temps réel permet :",
-    "choix": [
-      "D'anticiper les pannes",
-      "D'éviter le SLA",
-      "De faire du billing",
-      "D'accélérer les projets"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "La résilience d'un service désigne :",
-    "choix": [
-      "Sa capacité à supporter un choc et continuer de fonctionner",
-      "Son design graphique",
-      "Son coût",
-      "Sa facilité de développement"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "La segmentation réseau améliore :",
-    "choix": [
-      "La sécurité",
-      "La couleur des interfaces",
-      "Les SLA",
-      "Les demandes utilisateurs"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Une authentification forte repose sur :",
-    "choix": [
-      "Un seul mot de passe",
-      "Plusieurs facteurs (MFA)",
-      "Le WiFi",
-      "Le support"
-    ],
-    "reponse": 2
-  },
-  {
-    "question": "Un service bien piloté doit avoir :",
-    "choix": [
-      "Des indicateurs clairs et pertinents",
-      "Des indicateurs nombreux et complexes",
-      "Aucun reporting",
-      "Un budget illimité"
-    ],
-    "reponse": 1
-  },
-  {
-    "question": "Un incident récurrent nécessite :",
-    "choix": [
-      "Un ticket plus long",
-      "Une analyse de problème",
-      "Un changement urgent",
-      "Une mise hors ligne"
-    ],
-    "reponse": 2
-  },
- {
-  "question": "Une bonne politique de sauvegarde doit être :",
-  "choix": [
-    "Rare",
-    "Testée régulièrement",
-    "Jamais utilisée",
-    "Non documentée"
-  ],
-  "reponse": 2
-},
-{
-  "question": "La continuité opérationnelle vise :",
-  "choix": [
-    "À fonctionner même en cas de panne majeure",
-    "À réduire les équipes",
-    "À supprimer les logs",
-    "À arrêter les services la nuit"
-  ],
-  "reponse": 1
-}
+    "reponse": 3
+  }
 ]
