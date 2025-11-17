@@ -542,12 +542,12 @@
   {
     "question": "Quel est le profil d'usage typique d'un centre de services?",
     "choix": [
-      "Profil plat (charge constante)",
+      "Profil Chameau",
       "Profil en cloche (pic en milieu de journée)",
       "Profil en mur (grosse charge à l'ouverture)",
       "Profil aléatoire"
     ],
-    "reponse": 3
+    "reponse": 1
   },
   {
     "question": "COBIT est un référentiel de quoi?",
